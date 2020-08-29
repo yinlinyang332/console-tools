@@ -1,7 +1,7 @@
 {
-    "name": "awesome chrome extension boilerplate",
+    "name": "控制台版本控制器",
     "version": "1.0",
-    "description": "made by awesome-chrome-extension-boilerplate",
+    "description": "管理控制台版本",
     "manifest_version": 2,
     "minimum_chrome_version": "80",
     "permissions": [],
@@ -20,10 +20,7 @@
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "icons/extension-icon-x16.png",
-            "32": "icons/extension-icon-x32.png",
-            "48": "icons/extension-icon-x48.png",
-            "128": "icons/extension-icon-x128.png"
+            "16": "icons/extension-icon-disabled.png"
         }
     },
     "options_ui": {
@@ -31,9 +28,6 @@
         "open_in_tab": true
     },
     "icons": {
-        "16": "icons/extension-icon-x16.png",
-        "32": "icons/extension-icon-x32.png",
-        "48": "icons/extension-icon-x48.png",
-        "128": "icons/extension-icon-x128.png"
+        "16": "icons/extension-icon-disabled.png"
     }
 }
