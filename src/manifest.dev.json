@@ -1,10 +1,19 @@
 {
-    "name": "控制台版本控制器",
+    "name": "控制台工具",
     "version": "1.0",
-    "description": "管理控制台版本",
+    "description": "管理控制台版本等",
     "manifest_version": 2,
     "minimum_chrome_version": "80",
-    "permissions": [],
+    "permissions": [
+        "tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"contextMenus",
+		"storage",
+		"downloads",
+		"*://*/*",
+		"unlimitedStorage"
+    ],
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
     "background": {
         "scripts": ["js/background.js"],
@@ -20,7 +29,7 @@
     "browser_action": {
         "default_popup": "popup.html",
         "default_icon": {
-            "16": "icons/extension-icon-disabled.png"
+            "128": "icons/extension-icon-disabled.png"
         }
     },
     "options_ui": {
@@ -28,6 +37,6 @@
         "open_in_tab": true
     },
     "icons": {
-        "16": "icons/extension-icon-disabled.png"
+        "128": "icons/extension-icon-disabled.png"
     }
 }
