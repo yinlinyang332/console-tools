@@ -1,7 +1,7 @@
 {
-    "name": "控制台版本控制器",
+    "name": "控制台工具",
     "version": "1.0",
-    "description": "管理控制台版本",
+    "description": "管理控制台版本等",
     "manifest_version": 2,
     "minimum_chrome_version": "80",
     "permissions": [
