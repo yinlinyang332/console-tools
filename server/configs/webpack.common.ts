@@ -91,7 +91,7 @@ const commonConfig: Configuration = {
             minify: __DEV__ ? false : htmlMinifyOptions,
             chunks: ['options'],
             filename: 'options.html',
-            title: 'options page',
+            title: '控制台工具',
             template: resolve(PROJECT_ROOT, 'public/options.html'),
         }),
         new HtmlWebpackPlugin({
